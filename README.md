@@ -2,6 +2,19 @@
 
 A scaffold to initialize a project with Typescript & Node.js.
 
+## TODO
+
+The below list is for features that will be added in the future.
+
+- Add authentication using JWT
+- Add roles & permissions to users
+- Add Express request validations
+- Add mail with Nodemailer
+- Add CRUD example
+- Add Web Push to send push notifications
+
+_You're encouraged to contribute to this project by adding new todos and fixing/adding new features from todo list._
+
 ## Setup
 
 Copy `src/.env.example.ts` to `src/.env.ts` and fill it using your environment variables.
