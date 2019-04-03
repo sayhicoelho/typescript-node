@@ -9,7 +9,6 @@ The below list is for features that will be added in the future.
 - Add authentication using JWT
 - Add roles & permissions to users
 - Add Express request validations
-- Add mail with Nodemailer
 - Add CRUD example
 - Add Web Push to send push notifications
 
