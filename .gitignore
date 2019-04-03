@@ -1,0 +1,9 @@
+# Root folders
+/node_modules
+/dist
+
+# Extension files
+*.log
+
+# Others
+.env.ts
