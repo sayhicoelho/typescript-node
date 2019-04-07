@@ -13,9 +13,9 @@ class AuthController {
   }
 
   public async register (req: Request, res: Response): Promise<Response> {
-    const emailExist = await UserService.checkIfEmailExist(req.body.email)
+    const emailExists = await UserService.checkIfEmailExists(req.body.email)
 
-    if (emailExist) return res.status(400).json({ message: 'Email has already been taken.' })
+    if (emailExists) return res.status(400).json({ message: 'Email has already been taken.' })
 
     const token = await AuthService.getTokenAfterRegister(req.body)
 

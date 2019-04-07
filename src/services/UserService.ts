@@ -1,10 +1,10 @@
 import User from '../schemas/User'
 
 class UserService {
-  public async checkIfEmailExist (email: string): Promise<boolean> {
-    const emailExist = await User.findOne({ email }).countDocuments()
+  public async checkIfEmailExists (email: string): Promise<boolean> {
+    const emailExists = await User.findOne({ email }).countDocuments()
 
-    return emailExist > 0
+    return emailExists > 0
   }
 }
 
